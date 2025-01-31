@@ -1405,16 +1405,16 @@ input.sheet-tab.sheet-settings:checked::after {
 }
 
 span.sheet-logo-image {
-  background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Mutant%20Year%20Zero/images/logo.png);
+  background-image: url(https://raw.githubusercontent.com/Kajonn/roll20-character-sheets/master/Mutant%20Hindenburg/images/hindenburg-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:right;
-  width: 150px;
-  height: 55px;
+  width: 350px;
+  height: 60px;
   -margin: -15px 0 0 0;
   display: inline-block;
   margin-top: 20px;
-  -margin-left: 60px;
+  -margin-left: 80px;
   text-align: right;
 }
 
