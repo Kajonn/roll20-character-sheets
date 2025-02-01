@@ -1850,36 +1850,28 @@
         </div>
       </div>
 
-      <div class="character-money box toggle-pc-only chartype-background-light char-human">
+      <div class="character-money box toggle-pc-only chartype-background-light">
         <div class="money-grid">
           <div class="money-box header">
             <h1 data-i18n="money-u">MONEY</h1>
           </div>
-          <!--<div class="money-box1 column-header"></div>
-          <div class="money-box2 column-header">
-            <span data-i18n="gold">Gold</span>
-          </div>
-          <div class="money-box3 column-header">
-            <span data-i18n="silver">Silver</span>
-          </div>-->
-          <div class="money-box2 column-header">
-            <span data-i18n="credits">Credits</span>
-          </div>
-          <div class="money-box4 column-header">
-            <span data-i18n="credits">Credits</span>
-          </div>
-  
           <div class="money-box5">
-            <span class="label" data-i18n="carried">Carried</span>
+            <span class="label" data-i18n="krediter">Krediter</span>
           </div>
           <div class="money-box6">
-            <input class="input-number" type="text" name="attr_credits" value="0" min="0" title="@{credits}" />
+            <input class="input-number" type="text" name="attr_krediter" value="0" min="0" title="@{krediter}" />
           </div>
-  
           <div class="money-box7">
-            <span class="label" style="text-align: center;" data-i18n="vehicle-credits">Vehicle</span>
+            <span class="label" data-i18n="jyckar">Jyckar</span>
           </div>
           <div class="money-box8">
+            <input class="input-number" type="text" name="attr_jyckar" value="0" min="0" title="@{jyckar}" />
+          </div>
+<!--   
+          <div class="money-box7">
+            <span class="label" style="text-align: center;" data-i18n="vehicle-credits">Vehicle</span>
+          </div> -->
+          <!-- <div class="money-box8">
             <input class="input-number" type="text" name="attr_credits_vehicle" value="0" min="0" title="@{credits_vehicle}" />
           </div>
   
@@ -1896,7 +1888,7 @@
           </div>
           <div class="money-box12">
             <input class="input-number" type="text" name="attr_credits_total" value="0" min="0" readonly />
-          </div>
+          </div> -->
         </div>
       </div> 
 
@@ -3758,8 +3750,8 @@
     </div>
   </div>
 </rolltemplate>
-
-
+<!-- 
+<script type="text/javascript">   -->
 <script type="text/worker">
   /* beautify preserve:start */
 

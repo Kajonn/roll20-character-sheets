@@ -909,7 +909,7 @@ input[name="attr_chartype"][value="Mutant"] ~ div .sheet-chartype-background-dar
 input[name="attr_chartype"][value="Animal"] ~ div .sheet-header,
 /* input[name="attr_chartype"][value="Animal"] ~ div .sheet-column-header, */
 input[name="attr_chartype"][value="Animal"] ~ div .sheet-chartype-background-darkest {
-  background-color: #687569; 
+  background-color: #ad8d8d; 
 }
 input[name="attr_chartype"][value="Robot"] ~ div .sheet-header,
 /* input[name="attr_chartype"][value="Robot"] ~ div .sheet-column-header, */
@@ -926,7 +926,7 @@ input[name="attr_chartype"][value="Mutant"] ~ div .sheet-chartype-background-dar
   background-color: #dbd5d5; 
 }
 input[name="attr_chartype"][value="Animal"] ~ div .sheet-chartype-background-dark {
-  background-color: #67a83f; 
+  background-color: #dbd5d5; 
 }
 input[name="attr_chartype"][value="Robot"] ~ div .sheet-chartype-background-dark  {
   background-color: #8bb2ce; 
@@ -939,7 +939,7 @@ input[name="attr_chartype"][value="Mutant"] ~ div .sheet-chartype-background-lig
   background-color: #dbd5d5; 
 }
 input[name="attr_chartype"][value="Animal"] ~ div .sheet-chartype-background-light {
-  background-color: #d6ead8; 
+  background-color: #dbd5d5; 
 }
 input[name="attr_chartype"][value="Robot"] ~ div .sheet-chartype-background-light {
   background-color: #e4eef5; 
